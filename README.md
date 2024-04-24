@@ -1,40 +1,41 @@
-  <h1>Abracadabra</h1>
-  <h2>Descripción</h2>
-  <p>En este desafío se pondrán a prueba los conocimientos de Node y Express, así como la creación de rutas, objetos Request y Response, middlewares y la devolución de sitios web estáticos. Se requiere desarrollar un servidor con Express que sirva un sitio web estático con temática de magia, donde se presenten 4 sombreros y al hacer clic en uno de estos encontrar el conejo oculto. Además, se deben implementar las siguientes rutas:</p>
- 
-  <h2>Listado de Rutas</h2>
-
-  <ol>
-    <li>/abracadabra/usuarios</li>
-    <li>/abracadabra/juego/:usuario</li>
-    <li>/abracadabra/conejo/:n</li>
-    <li>Ruta genérica para manejar rutas no definidas</li>
-   </ol>
-
-  <h2>Conocimientos a Poner a Prueba</h2>
-  <ul>
-    <li>Node.js</li>
-    <li>Express</li>
-    <li>Creación de rutas</li>
-    <li>Objetos Request y Response</li>
-    <li>Middlewares</li>
-    <li>Devolución de sitios web estáticos</li>
-  </ul>
-
-  <h2>Clonar el Repositorio</h2>
-  <p>Para clonar este proyecto, ejecuta el siguiente comando en tu terminal:</p>
-  <pre><code>git clone https://ruta-del-repositorio.git</code></pre>
-
-  <h2>Instalación</h2>
-  <p>Antes de ejecutar el servidor, asegúrate de tener Node.js y npm instalados en tu sistema. Luego, instala las dependencias del proyecto ejecutando:</p>
-  <pre><code>npm install</code></pre>
-
-  <h2>Soluciones a los Requerimientos</h2>
-
-   <ol>
-    <li><strong>/abracadabra/usuarios:</strong> Devolver un JSON con un arreglo de nombres alojado en el servidor.</li>
-    <li><strong>/abracadabra/juego/:usuario:</strong> Verificar que el usuario existe en el arreglo alojado en el servidor. En caso de ser exitoso, permitir el paso a la ruta GET correspondiente, de lo contrario devolver la imagen "who.jpeg".</li>
-    <li><strong>/abracadabra/conejo/:n:</strong> Validar si el parámetro "n" coincide con el número generado de forma aleatoria. En caso de ser exitoso, devolver la imagen del conejo, de lo contrario devolver la imagen de Voldemort.</li>
-    <li><strong>Ruta genérica:</strong> Devolver un mensaje diciendo "Esta página no existe..." al consultar una ruta que no esté definida en el servidor.</li>
-  </ol>
+ <h1>Desafío - Abracadabra</h1>
+    <p>Este proyecto es un desafío que pone a prueba tus conocimientos en Node y Express para la creación de rutas, objetos Request y Response, middlewares y servidores web estáticos.</p>
+    
+  <h2>Conocimientos a Poner en Prueba</h2>
+    <p>En este desafío, se evaluarán los siguientes conocimientos:</p>
+    <ul>
+        <li>Creación de servidores web con Express</li>
+        <li>Definición de rutas y middlewares en Express</li>
+        <li>Manejo de objetos Request y Response</li>
+        <li>Servicio de contenido estático</li>
+    </ul>
+    
+  <h2>Configuración e Instalación</h2>
+    <p>Para clonar y ejecutar este proyecto, necesitarás tener instalado Node.js y npm en tu máquina.</p>
+  <h2>Uso</h2>
+    <p>Para utilizar este proyecto:</p>
+    <ol>
+        <li>Clona este repositorio: <code>git clone https://github.com/tu-usuario/desafio-abracadabra.git</code></li>
+        <li>Entra en el directorio del proyecto: <code>cd desafio-abracadabra</code></li>
+        <li>Ejecuta la aplicación: <code>node app.js</code></li>
+        <li>Abre tu navegador y ve a <code>http://localhost:3000</code> para ver la aplicación en funcionamiento.</li>
+    </ol>
+     <h3>Instalación de Dependencias</h3>
+    <pre><code>npm install express express-handlebars</code></pre>
   
+   <h2>Estructura del Proyecto</h2>
+    <pre>
+    .
+    ├── assets
+    │   └── img
+    │       └── (archivos de imágenes)
+    ├── node_modules
+    │   └── (dependencias de npm)
+    ├── views
+    │   ├── Inicio.handlebars
+    │   └── componentes
+    │       └── (archivos de vistas parciales)
+    ├── app.js
+    ├── index.html
+    └── package.json
+    </pre>
