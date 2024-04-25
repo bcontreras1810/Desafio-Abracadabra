@@ -15,8 +15,8 @@
   <h2>Uso</h2>
     <p>Para utilizar este proyecto:</p>
     <ol>
-        <li>Clona este repositorio: <code>git clone https://github.com/tu-usuario/desafio-abracadabra.git</code></li>
-        <li>Entra en el directorio del proyecto: <code>cd desafio-abracadabra</code></li>
+        <li>Clona este repositorio: <code>git clone https://github.com/bcontreras1810/Desafio-Abracadabra.git</code></li>
+        <li>Entra en el directorio del proyecto: <code>cd Desafio-Abracadabra</code></li>
         <li>Ejecuta la aplicación: <code>node app.js</code></li>
         <li>Abre tu navegador y ve a <code>http://localhost:3000</code> para ver la aplicación en funcionamiento.</li>
     </ol>
